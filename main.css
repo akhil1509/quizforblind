@@ -1,0 +1,282 @@
+body{
+    /*--font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;--*/
+}
+a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+h4{
+    padding-bottom: 15px;
+}
+h2{
+    padding-bottom: 15px;
+}
+
+.oq-form-control{
+    display: block;
+    width: 100%;
+    padding: 5px 0px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+
+.oq-aLeft{
+    text-align: left;
+}
+.oq-table{
+    border: 1px solid #ddd;
+}
+.table{
+    margin-bottom: 0;
+}
+.table > tbody > tr > td,.table > tbody > tr > th{
+    padding: 20px;
+}
+.table > tbody > .usertable > td,.table > tbody > tr > th{
+    padding: 15px 25px;
+}
+.model-header{
+    padding-top: 25px;
+}
+.oq-user-tab{
+    width: 180px;
+}
+
+.oq-error{
+    color: #dd4e42;
+}
+.oq-success{
+    color: #0078d7;
+}
+.oq-btn{
+    background-color: #0078d7;
+    padding: 8px 15px;
+    color: #fff;
+    border: 0px;
+}
+.oq-btn:hover{
+    background-color: #0165b4;
+    color: #fff;
+}
+.oq-addbtn{
+    color: #fff;
+    background-color: #6b6b6b;
+    padding: 8px 15px;
+}
+.oq-addbtn:hover{
+    background-color: #555555;
+    color: #fff;
+}
+.oq-editbtn{
+    background-color: #444;
+    padding: 8px 15px;
+    color: #fff;
+}
+.oq-editbtn:hover{
+    background-color: #222;
+    color: #fff;
+}
+.oq-deletebtn{
+    background-color: #de5145;
+    padding: 8px 15px;
+    color: #fff;
+}
+.oq-deletebtn:hover{
+    background-color: #bb4339;
+    color: #fff;
+}
+
+
+
+.oq-header{
+    background-color: #222;
+    padding: 20px 30px;
+}
+.oq-logo{
+    width: 225px;
+}
+.oq-admin{
+    background-color: #0078d7;
+    padding: 10px 20px;
+    color: #fff;
+}
+.oq-adminArea{
+    padding-top: 15px;
+}
+.oq-username{
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 20px;
+}
+.oq-userArea{
+    padding-top: 15px;
+}
+
+
+
+.oq-indexBody{
+    background-image: url(images/exambg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:85px;
+}
+.oq-signupBody{
+    background-color: #ddd;
+    padding: 50px 0;
+}
+.oq-bodyContent{
+    padding: 75px 0px;
+    color: #fff;
+    text-shadow: 1px 1px 2px #222;
+}
+.oq-loginHead{
+    font-size: 30px;
+}
+.oq-login{
+    background-color: rgba(255,255,255,0.9);
+    padding: 30px;
+}
+.oq-menuBody{
+    background-color: #ddd;
+    padding: 110px 0;
+}
+.oq-menu{
+    background-color: #fdfdfd;
+    padding: 35px;
+    font-size: 18px;
+}
+.oq-menuHead{
+    font-size: 30px;
+}
+
+
+.oq-signup{
+    background-color: rgba(255,255,255,0.8);
+    padding: 50px;
+}
+.oq-signupHead{
+    font-size: 30px;
+}
+.oq-adminlogin{
+    background-color: rgba(255,255,255,0.8);
+    padding: 75px;
+}
+.oq-adminloginBody{
+    background-color: #ddd;
+    padding: 50px 0;
+}
+.oq-adminMenuBody{
+    background-color: #ddd;
+    padding: 110px 0 125px 0;
+}
+.oq-adminMenu{
+    background-color: #fdfdfd;
+    padding: 35px;
+    font-size: 18px;
+}
+
+
+
+.oq-modalLangHead{
+    font-size: 20px;
+}
+
+
+
+.oq-viewTestsBody{
+    background-color: #ddd;
+    padding: 30px;
+}
+.oq-viewTests{
+    padding: 20px 50px;
+    background-color: #fff;
+}
+.oq-testsHead{
+    padding: 20px 0;
+}
+.oq-testsHeadText{
+    font-size: 25px;
+}
+
+.oq-form{
+    display: block;
+    width: auto;
+  height: 34px;
+  padding: 6px 25px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+
+.oq-viewTestsQusBody{
+    background-color: #ddd;
+    padding: 50px 40px;
+}
+.oq-viewQues{
+    padding: 25px;
+    background-color: #fff;
+}
+.oq-questionModal{
+    padding: 20px;
+}
+.oq-news{
+    color: #0078d7;
+}
+.oq-testsoperations{
+    width: 410px;
+}
+.oq-operations{
+    width: 200px;
+}
+
+
+
+.oq-userResultBody{
+    background-color: #ddd;
+    padding: 30px;
+}
+.oq-userResult{
+    padding: 20px 50px;
+    background-color: #fff;
+}
+
+
+.oq-scoreBoardBody{
+    background-color: #ddd;
+    padding: 70px;
+}
+.oq-scoreBoard{
+    background-color: #fff;
+    padding: 50px;
+}
+
+.oq-footer{
+    background-color: #111;
+    padding: 20px;
+}
+.oq-footerText{
+    color: #777777;
+}
+
+
+.block{
+    display: block;
+}
