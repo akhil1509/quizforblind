@@ -18,5 +18,7 @@ Speech Synthesis API and Google web speech API are used.
 After going through the application one might wonder how a blind person would login into the application. Actually Invigilator will help the user to login into the application. Login is just created to track the user activity but user activity is not yet provided in the admin panel.
 
 Dummy accounts:
+
 Admin login: username-quizadmin password-quizadmin
+
 User login: username- quizuser password-quizuser
